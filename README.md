@@ -56,20 +56,20 @@ Média Válida: 9.83333333333
 
 # Dicas
 1. Utilize o laço for para percorrer todos os itens da matriz de objetos:
-
 for (let i = 0; i < objAtletas.length; i++) {
     // O código que vai aqui será executado
     // uma vez para cada item da matriz
 }
 2. Você pode utilizar o método .sort() para ordenar as matrizes:
 
-notas = notas.sort()
+ notas = notas.sort()
 3. Você pode utilizar if/else para comparar os valores e eliminar o menor e maior;
 
 4. Você também pode utilizar o método .slice(x, y) para ajudar na seleção dos valores:
 
 // Elimina a maior e a menor nota
 let notasComputadas = notas.slice(1,4)
+
 5. Você pode utilizar o método .forEach() para realizar a soma dos valores da média;
 
 6. Você pode utilizar o .length para saber o tamanho da sua matriz na hora do cálculo da média;
